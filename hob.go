@@ -25,6 +25,7 @@ func ParseJson(jsondata []byte) (st interface{}, err error) {
 }
 
 func Timestamp() (now string) {
+	// Hello
 	now = time.Now().UTC().Format(time.RFC3339Nano)
 	return now
 }
